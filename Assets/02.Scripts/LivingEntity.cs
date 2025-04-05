@@ -10,7 +10,6 @@ public class LivingEntity : MonoBehaviour, IDamageable
     public event Action OnDeath; //사망시 실행되는 이벤트
     public virtual void OnDamage(float damage)
     {
-        Debug.Log("LivingEntity");
         fullHP -= damage;
         if (fullHP <= 0)
         {

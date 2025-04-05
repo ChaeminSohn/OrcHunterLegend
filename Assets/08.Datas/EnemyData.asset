@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac54d7bfd67a248429ff3a0fe4944d81, type: 3}
   m_Name: EnemyData
   m_EditorClassIdentifier: 
-  fullHP: 0
-  attackDmg: 0
-  moveSpeed: 0
+  fullHP: 100
+  attackDmg: 10
+  moveSpeed: 2
